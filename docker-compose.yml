@@ -1,0 +1,123 @@
+version: "3.9"
+
+services:
+
+  code-server:
+
+    image: ghcr.io/linuxserver/code-server
+    container_name: code-server
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Moscow
+      - PROXY_DOMAIN=vscode.kiortir.ru
+
+    volumes:
+      - ./service/code/config:/config
+      - ./service/code/appdir:/app
+
+
+    restart: always
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.code.entrypoints=https
+      - traefik.http.routers.code.rule=Host(`vscode.kiortir.ru`)
+      - traefik.http.routers.code.tls=true
+      - traefik.http.routers.code.tls.certresolver=letsEncrypt
+      - traefik.http.services.code-traefik.loadbalancer.server.port=9000
+
+  keycloak-postgres:
+    image: postgres:15.0-alpine
+    container_name: keycloak-postgres
+    # ports:
+    #   - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+      PGUSER: postgres
+    volumes:
+      - ./service/keycloak/postgres/data:/var/lib/postgresql/data
+    healthcheck:
+      test: pg_isready -d postgres
+      interval: 30s
+      timeout: 30s
+      retries: 3
+      start_period: 5s
+
+  keycloak:
+    image: quay.io/keycloak/keycloak:21.1.1
+    container_name: keycloak
+
+    environment:
+      KC_DB: postgres
+      KC_FEATURES: docker
+      KC_DB_PASSWORD: postgres
+      KC_DB_USERNAME: postgres
+      KC_DB_URL: jdbc:postgresql://keycloak-postgres:5432/postgres
+      KEYCLOAK_ADMIN: admin
+      KEYCLOAK_ADMIN_PASSWORD: admin
+
+    command: start --db postgres --hostname-strict=false --proxy=edge
+
+    depends_on:
+      keycloak-postgres:
+        condition: service_healthy
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.keycloak.entrypoints=https
+      - traefik.http.routers.keycloak.rule=Host(`auth.vscode.kiortir.ru`)
+      - traefik.http.routers.keycloak.tls=true
+      - traefik.http.routers.keycloak.tls.certresolver=letsEncrypt
+      - traefik.http.services.keycloak-service.loadbalancer.server.port=8080
+
+  traefik:
+    image: traefik:v2.10
+    container_name: traefik
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - /etc/localtime:/etc/localtime:ro
+      - ./service/traefik/traefik.yml:/etc/traefik/traefik.yml
+      - ./service/traefik/acme.json:/acme.json
+
+    restart: always
+
+    labels:
+      - traefik.enable=true
+
+      - traefik.http.routers.http-catchall.rule=hostregexp(`{host:.+}`)
+      - traefik.http.routers.http-catchall.entrypoints=http
+      - traefik.http.routers.http-catchall.middlewares=redirect-to-https
+      - traefik.http.middlewares.redirect-to-https.redirectscheme.scheme=https
+      
+      - traefik.http.routers.traefik.entrypoints=https
+      - traefik.http.routers.traefik.rule=HostRegexp(`traefik.{domain:[a-z]+}`)
+      - traefik.http.routers.traefik.tls=true
+      - traefik.http.routers.traefik.tls.certresolver=letsEncrypt
+      - traefik.http.routers.traefik.service=api@internal
+      - traefik.http.services.traefik-traefik.loadbalancer.server.port=8080
+
+  portainer:
+
+    image: portainer/portainer-ce:2.5.0-alpine
+
+    container_name: portainer
+    command: -H unix:///var/run/docker.sock
+    restart: always
+
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - portainer_data:/data
+
+    labels:
+      - traefik.enable=true
+      - traefik.http.routers.portainer.entrypoints=https
+      - traefik.http.routers.portainer.rule=Host(`portainer.vscode.kiortir.ru`)
+      - traefik.http.routers.portainer.tls=true
+      - traefik.http.routers.portainer.tls.certresolver=letsEncrypt
+      - traefik.http.services.portainer.loadbalancer.server.port=9000

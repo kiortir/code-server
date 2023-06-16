@@ -1,0 +1,26 @@
+entryPoints:
+  http:
+    address: ":80"
+  https:
+    address: ":443"
+
+
+certificatesResolvers:
+  letsEncrypt:
+    acme:
+      email: kiortir@yandex.ru
+      storage: acme.json
+      # caServer: 'https://acme-staging-v02.api.letsencrypt.org/directory'
+      caServer: https://acme-v02.api.letsencrypt.org/directory
+      httpChallenge:
+        entryPoint: http
+
+
+api:
+  dashboard: true
+
+
+providers:
+  docker:
+    endpoint: "unix:///var/run/docker.sock"
+    exposedByDefault: false
