@@ -1,7 +1,0 @@
-2023-06-18 09:05:12.329 [info] Name: Black Formatter
-2023-06-18 09:05:12.329 [info] Module: black
-2023-06-18 09:05:12.329 [info] Python extension loading
-2023-06-18 09:05:12.329 [info] Waiting for interpreter from python extension.
-2023-06-18 09:05:12.329 [info] Python extension loaded
-2023-06-18 09:05:12.329 [info] Server run command: /config/workspace/test/.venv/bin/python /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal/bundled/tool/lsp_server.py
-2023-06-18 09:05:12.329 [info] Server: Start requested.
