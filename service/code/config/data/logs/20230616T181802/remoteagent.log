@@ -1,0 +1,21 @@
+2023-06-16 18:18:03.288 [info] 
+
+
+
+
+2023-06-16 18:18:03.289 [info] Extension host agent started.
+2023-06-16 18:18:03.437 [info] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+2023-06-16 18:18:03.656 [info] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+2023-06-16 18:18:09.079 [warning] No ptyHost heartbeat after 6 seconds
+2023-06-16 18:18:17.228 [info] [172.18.0.3][bd6af9bc][ManagementConnection] New connection established.
+2023-06-16 18:18:17.369 [warning] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+2023-06-16 18:18:19.882 [info] [172.18.0.3][26f0cfe9][ExtensionHostConnection] New connection established.
+2023-06-16 18:18:19.942 [info] [172.18.0.3][26f0cfe9][ExtensionHostConnection] <1478> Launched Extension Host Process.
+2023-06-16 18:19:33.843 [info] Getting Manifest... ms-python.python
+2023-06-16 18:19:35.171 [info] Installing extension: ms-python.python
+2023-06-16 18:19:41.939 [info] Extension signature verification is not done: ms-python.python
+2023-06-16 18:19:46.782 [info] Extracted extension to /config/extensions/.41313c45-905d-4eef-b85b-f8395f8456c6: ms-python.python
+2023-06-16 18:19:46.793 [info] Renamed to /config/extensions/ms-python.python-2023.8.0-universal
+2023-06-16 18:19:46.803 [info] Extracting extension completed. ms-python.python
+2023-06-16 18:19:46.808 [info] Extension installed successfully: ms-python.python
+2023-06-16 19:03:28.970 [warning] No ptyHost heartbeat after 6 seconds

@@ -1,0 +1,19 @@
+2023-06-16 19:08:39.202 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-06-16 19:08:39.204 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-06-16 19:08:39.204 [info] Experiment 'pythonSurveyNotificationcf' is active
+2023-06-16 19:08:39.204 [info] Test server listening.
+2023-06-16 19:08:39.204 [info] > conda info --json
+2023-06-16 19:08:39.204 [info] > python -c "import sys;print(sys.executable)"
+2023-06-16 19:08:39.212 [error] [Error: Command failed: python -c "import sys;print(sys.executable)"
+/bin/sh: 1: python: not found
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Process.ChildProcess._handle.onexit (node:internal/child_process:304:5)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'python -c "import sys;print(sys.executable)"'
+}
+2023-06-16 19:08:39.212 [error] Unable to start Jedi language server as a valid interpreter is not selected

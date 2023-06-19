@@ -1,0 +1,5 @@
+2023-06-18 09:05:11.782 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-06-18 09:05:11.782 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-06-18 09:05:11.782 [info] Experiment 'pythonSurveyNotificationcf' is active
+2023-06-18 09:05:11.782 [info] Test server listening.
+2023-06-18 09:05:11.782 [info] Python interpreter path: ./.venv/bin/python

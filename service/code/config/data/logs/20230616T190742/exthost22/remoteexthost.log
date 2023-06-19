@@ -1,0 +1,16 @@
+2023-06-18 09:05:49.297 [info] Extension host with pid 120542 started
+2023-06-18 09:05:49.424 [info] Lock '/config/data/User/workspaceStorage/-32b35f77/vscode.lock': Lock acquired.
+2023-06-18 09:05:49.634 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-18 09:05:49.664 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.black-formatter
+2023-06-18 09:05:51.820 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-18 09:05:52.630 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-18 09:05:52.630 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-18 09:05:54.485 [info] ExtensionService#_doActivateExtension ms-python.black-formatter, startup: false, activationEvent: 'onLanguage:python'
+2023-06-18 09:05:54.486 [info] ExtensionService#_doActivateExtension ms-python.isort, startup: false, activationEvent: 'onLanguage:python'
+2023-06-18 09:05:55.545 [info] Eager extensions activated
+2023-06-18 09:05:55.545 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-18 09:05:55.546 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-18 09:05:55.546 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-06-18 09:05:57.607 [info] Extension host terminating: received terminate message from renderer
+2023-06-18 09:05:57.607 [info] Lock '/config/data/User/workspaceStorage/-32b35f77/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-18 09:05:57.715 [info] Extension host with pid 120542 exiting with code 0

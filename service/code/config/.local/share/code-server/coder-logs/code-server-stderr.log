@@ -1,0 +1,60 @@
+[18:18:09] No ptyHost heartbeat after 6 seconds
+[18:18:17] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[19:03:41] No ptyHost heartbeat after 6 seconds
+a socket was left hanging
+a socket was left hanging
+a socket was left hanging
+[19:07:45] [172.19.0.5][bd6af9bc][ManagementConnection] Unknown reconnection token (never seen).
+[19:07:45] [172.19.0.5][26f0cfe9][ExtensionHostConnection] Unknown reconnection token (never seen).
+[19:08:14] Using the in-memory credential store as the operating system's credential store could not be accessed. Please see https://aka.ms/vscode-server-keyring on how to set this up. Details: libsecret-1.so.0: cannot open shared object file: No such file or directory
+[07:59:31] RequestStore#acceptReply was called without receiving a matching request 127
+[07:59:31] RequestStore#acceptReply was called without receiving a matching request 128
+[07:59:33] RequestStore#acceptReply was called without receiving a matching request 129
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 130
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 131
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 132
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 133
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 134
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 135
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 136
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 137
+[07:59:34] RequestStore#acceptReply was called without receiving a matching request 138
+[08:07:52] RequestStore#acceptReply was called without receiving a matching request 211
+[08:07:52] RequestStore#acceptReply was called without receiving a matching request 212
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 213
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 214
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 215
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 216
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 217
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 218
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 219
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 220
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 221
+[08:07:53] RequestStore#acceptReply was called without receiving a matching request 222
+[08:07:54] RequestStore#acceptReply was called without receiving a matching request 223
+[08:07:55] RequestStore#acceptReply was called without receiving a matching request 224
+[08:07:55] RequestStore#acceptReply was called without receiving a matching request 225
+[08:07:55] RequestStore#acceptReply was called without receiving a matching request 226
+[08:07:55] RequestStore#acceptReply was called without receiving a matching request 227
+[08:07:55] RequestStore#acceptReply was called without receiving a matching request 228
+[08:10:18] RequestStore#acceptReply was called without receiving a matching request 247
+[08:10:19] RequestStore#acceptReply was called without receiving a matching request 248
+[08:10:22] RequestStore#acceptReply was called without receiving a matching request 249
+[08:10:22] RequestStore#acceptReply was called without receiving a matching request 250
+[08:10:22] RequestStore#acceptReply was called without receiving a matching request 251
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 252
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 253
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 254
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 255
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 256
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 257
+[08:10:23] RequestStore#acceptReply was called without receiving a matching request 258
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 259
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 260
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 261
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 262
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 263
+[08:10:24] RequestStore#acceptReply was called without receiving a matching request 264
+[08:10:24] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[08:10:24] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+[08:10:24] [File Watcher (node.js)] Watcher shutdown because watched path got deleted

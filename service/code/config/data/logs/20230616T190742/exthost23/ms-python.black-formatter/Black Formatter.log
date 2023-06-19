@@ -1,0 +1,50 @@
+2023-06-19 06:55:17.004 [info] Name: Black Formatter
+2023-06-19 06:55:17.004 [info] Module: black
+2023-06-19 06:55:17.004 [info] Python extension loading
+2023-06-19 06:55:17.004 [info] Waiting for interpreter from python extension.
+2023-06-19 06:55:17.004 [info] Python extension loaded
+2023-06-19 06:55:17.004 [info] Server run command: /config/workspace/test/.venv/bin/python /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal/bundled/tool/lsp_server.py
+2023-06-19 06:55:17.004 [info] Server: Start requested.
+2023-06-19 06:55:18.750 [info] CWD Server: /config/workspace/test
+2023-06-19 06:55:18.750 [info] Settings used to run Server:
+[
+    {
+        "cwd": "/config/workspace/test",
+        "workspace": "file:///config/workspace/test",
+        "args": [],
+        "path": [],
+        "interpreter": [
+            "/config/workspace/test/.venv/bin/python"
+        ],
+        "importStrategy": "useBundled",
+        "showNotifications": "off"
+    }
+]
+
+2023-06-19 06:55:18.751 [info] Global settings:
+{
+    "cwd": "/run/s6-rc:s6-rc-init:hnJifJ/servicedirs/svc-code-server",
+    "workspace": "/run/s6-rc:s6-rc-init:hnJifJ/servicedirs/svc-code-server",
+    "args": [],
+    "path": [],
+    "interpreter": [],
+    "importStrategy": "useBundled",
+    "showNotifications": "off"
+}
+
+2023-06-19 06:55:18.752 [info] sys.path used to run Server:
+   /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal/bundled/libs
+   /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal/bundled/tool
+   /usr/lib/python311.zip
+   /usr/lib/python3.11
+   /usr/lib/python3.11/lib-dynload
+   /config/workspace/test/.venv/lib/python3.11/site-packages
+2023-06-19 06:55:18.759 [info] /config/workspace/test/.venv/bin/python -m black --version
+2023-06-19 06:55:18.759 [info] CWD formatter: /config/workspace/test
+2023-06-19 06:55:19.029 [info] Version info for formatter running for /config/workspace/test:
+black, 23.3.0 (compiled: no)
+Python (CPython) 3.11.0rc1
+
+2023-06-19 06:55:19.030 [info] SUPPORTED black>=22.3.0
+FOUND black==23.3.0
+

@@ -4,17 +4,21 @@ services:
 
   code-server:
 
-    image: ghcr.io/linuxserver/code-server
+    image: lscr.io/linuxserver/code-server:latest
     container_name: code-server
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/Moscow
+      - TZ=Etc/UTC
       - PROXY_DOMAIN=vscode.kiortir.ru
+
+      - PASSWORD=password #optional
+      - SUDO_PASSWORD=password #optional
+      - DEFAULT_WORKSPACE=/config/workspace #optional
 
     volumes:
       - ./service/code/config:/config
-      - ./service/code/appdir:/app
+      # - ./service/code/appdir:/app
 
 
     restart: always
@@ -25,7 +29,7 @@ services:
       - traefik.http.routers.code.rule=Host(`vscode.kiortir.ru`)
       - traefik.http.routers.code.tls=true
       - traefik.http.routers.code.tls.certresolver=letsEncrypt
-      - traefik.http.services.code-traefik.loadbalancer.server.port=9000
+      - traefik.http.services.code-traefik.loadbalancer.server.port=8443
 
   keycloak-postgres:
     image: postgres:15.0-alpine
@@ -56,8 +60,9 @@ services:
       KC_DB_PASSWORD: postgres
       KC_DB_USERNAME: postgres
       KC_DB_URL: jdbc:postgresql://keycloak-postgres:5432/postgres
-      KEYCLOAK_ADMIN: admin
-      KEYCLOAK_ADMIN_PASSWORD: admin
+    secrets:
+       - KEYCLOAK_ADMIN
+       - KEYCLOAK_ADMIN_PASSWORD
 
     command: start --db postgres --hostname-strict=false --proxy=edge
 
@@ -121,3 +126,13 @@ services:
       - traefik.http.routers.portainer.tls=true
       - traefik.http.routers.portainer.tls.certresolver=letsEncrypt
       - traefik.http.services.portainer.loadbalancer.server.port=9000
+
+
+volumes:
+  portainer_data:
+
+secrets:
+   KEYCLOAK_ADMIN:
+     file: ./secrets/KEYCLOAK_ADMIN
+   KEYCLOAK_ADMIN_PASSWORD:
+     file: ./secrets/KEYCLOAK_ADMIN_PASSWORD

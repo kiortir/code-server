@@ -1,0 +1,349 @@
+[2023-06-16T18:17:05.309Z] info  code-server 4.13.0 2798322b03e7f446f59c5142215c11711ed7a427
+[2023-06-16T18:17:05.313Z] info  Using user-data-dir ~/data
+[2023-06-16T18:17:05.350Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-06-16T18:17:05.351Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-06-16T18:17:05.351Z] info    - Authentication is enabled
+[2023-06-16T18:17:05.352Z] info      - Using password from $PASSWORD
+[2023-06-16T18:17:05.353Z] info    - Not serving HTTPS
+[2023-06-16T18:17:05.353Z] info    - Proxying the following domain:
+[2023-06-16T18:17:05.354Z] info      - *.vscode.kiortir.ru
+[2023-06-16T18:18:02.043Z] info  code-server 4.13.0 2798322b03e7f446f59c5142215c11711ed7a427
+[2023-06-16T18:18:02.048Z] info  Using user-data-dir ~/data
+[2023-06-16T18:18:02.083Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-06-16T18:18:02.084Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-06-16T18:18:02.085Z] info    - Authentication is enabled
+[2023-06-16T18:18:02.086Z] info      - Using password from $PASSWORD
+[2023-06-16T18:18:02.086Z] info    - Not serving HTTPS
+[2023-06-16T18:18:02.087Z] info    - Proxying the following domain:
+[2023-06-16T18:18:02.087Z] info      - *.vscode.kiortir.ru
+[18:18:02] 
+
+
+
+
+[18:18:03] Extension host agent started.
+[18:18:03] Started initializing default profile extensions in extensions installation folder. file:///config/extensions
+[18:18:03] Completed initializing default profile extensions in extensions installation folder. file:///config/extensions
+[18:18:17] [172.18.0.3][bd6af9bc][ManagementConnection] New connection established.
+[18:18:19] [172.18.0.3][26f0cfe9][ExtensionHostConnection] New connection established.
+[18:18:19] [172.18.0.3][26f0cfe9][ExtensionHostConnection] <1478> Launched Extension Host Process.
+[18:19:33] Getting Manifest... ms-python.python
+[18:19:35] Installing extension: ms-python.python
+[18:19:41] Extension signature verification is not done: ms-python.python
+[18:19:46] Extracted extension to /config/extensions/.41313c45-905d-4eef-b85b-f8395f8456c6: ms-python.python
+[18:19:46] Renamed to /config/extensions/ms-python.python-2023.8.0-universal
+[18:19:46] Extracting extension completed. ms-python.python
+[18:19:46] Extension installed successfully: ms-python.python
+[2023-06-16T19:07:40.797Z] info  code-server 4.13.0 2798322b03e7f446f59c5142215c11711ed7a427
+[2023-06-16T19:07:40.802Z] info  Using user-data-dir ~/data
+[2023-06-16T19:07:40.816Z] info  Using config file ~/.config/code-server/config.yaml
+[2023-06-16T19:07:40.817Z] info  HTTP server listening on http://0.0.0.0:8443/
+[2023-06-16T19:07:40.817Z] info    - Authentication is enabled
+[2023-06-16T19:07:40.818Z] info      - Using password from $PASSWORD
+[2023-06-16T19:07:40.819Z] info    - Not serving HTTPS
+[2023-06-16T19:07:40.819Z] info    - Proxying the following domain:
+[2023-06-16T19:07:40.820Z] info      - *.vscode.kiortir.ru
+[19:07:42] 
+
+
+
+
+[19:07:42] Extension host agent started.
+[19:08:14] [172.19.0.5][119ce555][ManagementConnection] New connection established.
+[19:08:17] [172.19.0.5][5beb1c63][ExtensionHostConnection] New connection established.
+[19:08:17] [172.19.0.5][5beb1c63][ExtensionHostConnection] <713> Launched Extension Host Process.
+[19:08:24] [172.19.0.5][6b976197][ManagementConnection] New connection established.
+[19:08:28] [172.19.0.5][e23975ac][ExtensionHostConnection] New connection established.
+[19:08:28] [172.19.0.5][e23975ac][ExtensionHostConnection] <942> Launched Extension Host Process.
+[19:08:30] [172.19.0.5][6b976197][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:09:37] [172.19.0.5][119ce555][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[19:09:37] [172.19.0.5][5beb1c63][ExtensionHostConnection] <713> Extension Host Process exited with code: 0, signal: null.
+[19:12:05] [172.19.0.5][225e491f][ManagementConnection] New connection established.
+[19:12:08] [172.19.0.5][165dd72e][ExtensionHostConnection] New connection established.
+[19:12:08] [172.19.0.5][165dd72e][ExtensionHostConnection] <1429> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 38 chars and 1 size events
+[19:17:05] [172.19.0.5][e23975ac][ExtensionHostConnection] <942> Extension Host Process exited with code: 0, signal: null.
+[00:15:31] [172.19.0.5][165dd72e][ExtensionHostConnection] <1429> Extension Host Process exited with code: 0, signal: null.
+[07:42:45] [172.19.0.5][2b99b963][ManagementConnection] New connection established.
+[07:42:47] [172.19.0.5][60b6f984][ExtensionHostConnection] New connection established.
+[07:42:47] [172.19.0.5][60b6f984][ExtensionHostConnection] <55333> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 38 chars and 1 size events
+[07:49:11] [172.19.0.5][2b99b963][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:49:11] [172.19.0.5][60b6f984][ExtensionHostConnection] <55333> Extension Host Process exited with code: 0, signal: null.
+[07:49:13] [172.19.0.5][31c56333][ManagementConnection] New connection established.
+[07:49:14] [172.19.0.5][70afce1f][ExtensionHostConnection] New connection established.
+[07:49:14] [172.19.0.5][70afce1f][ExtensionHostConnection] <56779> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "1": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "1"
+[IPC Library: Pty Host]  INFO Persistent process "1": Replaying 38 chars and 1 size events
+[07:59:27] [172.19.0.5][226e65c4][ManagementConnection] New connection established.
+[07:59:29] [172.19.0.5][408e846b][ExtensionHostConnection] New connection established.
+[07:59:29] [172.19.0.5][408e846b][ExtensionHostConnection] <61535> Launched Extension Host Process.
+[07:59:41] [172.19.0.5][226e65c4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:59:41] [172.19.0.5][408e846b][ExtensionHostConnection] <61535> Extension Host Process exited with code: 0, signal: null.
+[07:59:42] [172.19.0.5][13ee8021][ManagementConnection] New connection established.
+[07:59:44] [172.19.0.5][83916c3f][ExtensionHostConnection] New connection established.
+[07:59:44] [172.19.0.5][83916c3f][ExtensionHostConnection] <62266> Launched Extension Host Process.
+[07:59:49] [172.19.0.5][31c56333][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[07:59:50] [172.19.0.5][70afce1f][ExtensionHostConnection] <56779> Extension Host Process exited with code: 0, signal: null.
+[07:59:51] [172.19.0.5][b6a1d72e][ManagementConnection] New connection established.
+[07:59:52] [172.19.0.5][0bbe6c1b][ExtensionHostConnection] New connection established.
+[07:59:52] [172.19.0.5][0bbe6c1b][ExtensionHostConnection] <62628> Launched Extension Host Process.
+[08:00:58] [172.19.0.5][13ee8021][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:00:59] [172.19.0.5][83916c3f][ExtensionHostConnection] <62266> Extension Host Process exited with code: 0, signal: null.
+[08:05:09] Getting Manifest... zhuangtongfa.material-theme
+[08:05:11] Installing extension: zhuangtongfa.material-theme
+[08:05:13] Extension signature verification is not done: zhuangtongfa.material-theme
+[08:05:14] Extracted extension to /config/extensions/.d1860fc7-389f-45b4-bd4b-37e6217f27d2: zhuangtongfa.material-theme
+[08:05:14] Renamed to /config/extensions/zhuangtongfa.material-theme-3.15.17-universal
+[08:05:14] Extracting extension completed. zhuangtongfa.material-theme
+[08:05:14] Extension installed successfully: zhuangtongfa.material-theme
+[08:05:50] Getting Manifest... zhuangtongfa.material-theme
+[08:05:50] Getting Manifest... ms-python.python
+[08:05:51] Installing extension: zhuangtongfa.material-theme
+[08:05:51] Installing the extension without checking dependencies and pack zhuangtongfa.material-theme
+[08:05:51] Installing extension: ms-python.python
+[08:05:51] Installing the extension without checking dependencies and pack ms-python.python
+[08:05:52] Extension signature verification is not done: zhuangtongfa.material-theme
+[08:05:52] Extracted extension to /config/extensions/.3674f298-6899-4507-9a1d-73b149acd9aa: zhuangtongfa.material-theme
+[08:05:52] Renamed to /config/extensions/zhuangtongfa.material-theme-3.15.17-universal
+[08:05:52] Extracting extension completed. zhuangtongfa.material-theme
+[08:05:52] Extension installed successfully: zhuangtongfa.material-theme
+[08:05:52] Extension signature verification is not done: ms-python.python
+[08:05:59] Extracted extension to /config/extensions/.f745acde-3c24-40e3-a1ea-17a63d9e3328: ms-python.python
+[08:05:59] Renamed to /config/extensions/ms-python.python-2023.8.0-universal
+[08:05:59] Extracting extension completed. ms-python.python
+[08:05:59] Extension installed successfully: ms-python.python
+[08:06:01] [172.19.0.5][b6a1d72e][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:06:02] [172.19.0.5][0bbe6c1b][ExtensionHostConnection] <62628> Extension Host Process exited with code: 0, signal: null.
+[08:06:03] [172.19.0.5][bc9a6a50][ManagementConnection] New connection established.
+[08:06:04] [172.19.0.5][6952acf5][ExtensionHostConnection] New connection established.
+[08:06:04] [172.19.0.5][6952acf5][ExtensionHostConnection] <66550> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 8656 chars and 1 size events
+[08:06:12] Getting Manifest... matangover.mypy
+[08:06:13] Installing extension: matangover.mypy
+[08:06:16] Extension signature verification is not done: matangover.mypy
+[08:06:17] Extracted extension to /config/extensions/.61fe65c4-769a-4b81-afdd-49675ba7fb0a: matangover.mypy
+[08:06:17] Renamed to /config/extensions/matangover.mypy-0.2.0-universal
+[08:06:17] Extracting extension completed. matangover.mypy
+[08:06:17] Extension installed successfully: matangover.mypy
+[08:06:43] Getting Manifest... ms-python.isort
+[08:06:44] Installing extension: ms-python.isort
+[08:06:45] Getting Manifest... ms-python.python
+[08:06:51] Extension signature verification is not done: ms-python.isort
+[08:06:52] Extracted extension to /config/extensions/.38e856d6-773f-490c-854a-cf7aae558722: ms-python.isort
+[08:06:52] Renamed to /config/extensions/ms-python.isort-2022.8.0-universal
+[08:06:52] Extracting extension completed. ms-python.isort
+[08:06:52] Extension installed successfully: ms-python.isort
+[08:06:58] Getting Manifest... mikoz.black-py
+[08:06:59] Installing extension: mikoz.black-py
+[08:07:00] Getting Manifest... ms-python.python
+[08:07:03] Extension signature verification is not done: mikoz.black-py
+[08:07:03] Extracted extension to /config/extensions/.f2fd9b2c-8873-4211-bf4c-0ba37f8fec0d: mikoz.black-py
+[08:07:03] Renamed to /config/extensions/mikoz.black-py-1.0.3-universal
+[08:07:03] Extracting extension completed. mikoz.black-py
+[08:07:03] Extension installed successfully: mikoz.black-py
+[08:07:04] Uninstalling extension from the profile: mikoz.black-py@1.0.3 file:///config/data/User/profiles/-64fda02e/extensions.json
+[08:07:04] Marked extension as uninstalled mikoz.black-py-1.0.3-universal
+[08:07:05] Successfully uninstalled extension from the profile mikoz.black-py@1.0.3 file:///config/data/User/profiles/-64fda02e/extensions.json
+[08:07:07] Getting Manifest... ms-python.black-formatter
+[08:07:07] Installing extension: ms-python.black-formatter
+[08:07:08] Getting Manifest... ms-python.python
+[08:07:12] Extension signature verification is not done: ms-python.black-formatter
+[08:07:12] Extracted extension to /config/extensions/.40040e4f-bf97-4d6d-9762-3701ffa7a566: ms-python.black-formatter
+[08:07:12] Renamed to /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal
+[08:07:12] Extracting extension completed. ms-python.black-formatter
+[08:07:12] Extension installed successfully: ms-python.black-formatter
+[08:07:19] [172.19.0.5][bc9a6a50][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:07:20] [172.19.0.5][82855b1c][ManagementConnection] New connection established.
+[08:07:21] [172.19.0.5][d25a989f][ExtensionHostConnection] New connection established.
+[08:07:21] [172.19.0.5][d25a989f][ExtensionHostConnection] <67342> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 8656 chars and 1 size events
+[08:07:49] [172.19.0.5][4ef112f4][ManagementConnection] New connection established.
+[08:07:51] [172.19.0.5][ffb7abbe][ExtensionHostConnection] New connection established.
+[08:07:51] [172.19.0.5][ffb7abbe][ExtensionHostConnection] <67654> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 8656 chars and 1 size events
+[08:08:03] [172.19.0.5][4ef112f4][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:08:05] [172.19.0.5][82855b1c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:08:07] [172.19.0.5][a3cef3c9][ManagementConnection] New connection established.
+[08:08:09] [172.19.0.5][c5f4cb1a][ExtensionHostConnection] New connection established.
+[08:08:09] [172.19.0.5][c5f4cb1a][ExtensionHostConnection] <67966> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 8656 chars and 1 size events
+[08:10:13] [172.19.0.5][f45d53e4][ManagementConnection] New connection established.
+[08:10:16] [172.19.0.5][c3267967][ExtensionHostConnection] New connection established.
+[08:10:16] [172.19.0.5][c3267967][ExtensionHostConnection] <68915> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 8656 chars and 1 size events
+[08:12:49] [172.19.0.5][6952acf5][ExtensionHostConnection] <66550> Extension Host Process exited with code: 0, signal: null.
+[08:15:13] [172.19.0.5][d25a989f][ExtensionHostConnection] <67342> Extension Host Process exited with code: 0, signal: null.
+[08:15:13] [172.19.0.5][ffb7abbe][ExtensionHostConnection] <67654> Extension Host Process exited with code: 0, signal: null.
+[08:16:14] [172.19.0.5][a3cef3c9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[08:16:15] [172.19.0.5][8940cef6][ManagementConnection] New connection established.
+[08:16:17] [172.19.0.5][48450852][ExtensionHostConnection] New connection established.
+[08:16:17] [172.19.0.5][48450852][ExtensionHostConnection] <71282> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 6994 chars and 1 size events
+[08:17:10] Getting Manifest... ms-python.black-formatter
+[08:17:12] Installing extension: ms-python.black-formatter
+[08:17:13] Getting Manifest... ms-python.python
+[08:17:15] Extension signature verification is not done: ms-python.black-formatter
+[08:17:16] Extracted extension to /config/extensions/.db3899c5-f0c7-4488-9a83-109ac9b21a36: ms-python.black-formatter
+[08:17:16] Renamed to /config/extensions/ms-python.black-formatter-2023.3.0-dev-universal
+[08:17:16] Extracting extension completed. ms-python.black-formatter
+[08:17:16] Extension installed successfully: ms-python.black-formatter
+[08:17:22] Getting Manifest... ms-python.isort
+[08:17:22] Installing extension: ms-python.isort
+[08:17:24] Getting Manifest... ms-python.python
+[08:17:26] Extension signature verification is not done: ms-python.isort
+[08:17:26] Extracted extension to /config/extensions/.5781883d-f90c-47df-9943-c54211cfc872: ms-python.isort
+[08:17:26] Renamed to /config/extensions/ms-python.isort-2022.8.0-universal
+[08:17:26] Extracting extension completed. ms-python.isort
+[08:17:26] Extension installed successfully: ms-python.isort
+[08:21:16] [172.19.0.5][c3267967][ExtensionHostConnection] <68915> Extension Host Process exited with code: 0, signal: null.
+[11:16:44] [172.19.0.5][c5f4cb1a][ExtensionHostConnection] <67966> Extension Host Process exited with code: 0, signal: null.
+[12:18:40] [172.19.0.5][8940cef6][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:18:41] [172.19.0.5][48450852][ExtensionHostConnection] <71282> Extension Host Process exited with code: 0, signal: null.
+[12:18:42] [172.19.0.5][7224de81][ManagementConnection] New connection established.
+[12:18:44] [172.19.0.5][7610b8d2][ExtensionHostConnection] New connection established.
+[12:18:44] [172.19.0.5][7610b8d2][ExtensionHostConnection] <116255> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 543 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 5581 chars and 1 size events
+[12:19:10] [172.19.0.5][7224de81][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[12:19:10] [172.19.0.5][7610b8d2][ExtensionHostConnection] <116255> Extension Host Process exited with code: 0, signal: null.
+[16:36:29] [172.19.0.5][522376d1][ManagementConnection] New connection established.
+[16:36:31] [172.19.0.5][19edbabf][ExtensionHostConnection] New connection established.
+[16:36:31] [172.19.0.5][19edbabf][ExtensionHostConnection] <116719> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 543 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 5348 chars and 1 size events
+[16:37:02] Getting Manifest... zhuangtongfa.material-theme
+[16:37:04] Installing extension: zhuangtongfa.material-theme
+[16:37:05] Extension signature verification is not done: zhuangtongfa.material-theme
+[16:37:05] Extracted extension to /config/extensions/.e3675ecb-2626-45f0-a52f-030114a2ab08: zhuangtongfa.material-theme
+[16:37:05] Renamed to /config/extensions/zhuangtongfa.material-theme-3.15.17-universal
+[16:37:05] Extracting extension completed. zhuangtongfa.material-theme
+[16:37:05] Extension installed successfully: zhuangtongfa.material-theme
+[16:39:52] [172.19.0.5][522376d1][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[16:39:52] [172.19.0.5][19edbabf][ExtensionHostConnection] <116719> Extension Host Process exited with code: 0, signal: null.
+[09:00:37] [172.19.0.5][f8e450b9][ManagementConnection] New connection established.
+[09:00:39] [172.19.0.5][623cbaef][ExtensionHostConnection] New connection established.
+[09:00:39] [172.19.0.5][623cbaef][ExtensionHostConnection] <118016> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 811 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 5348 chars and 1 size events
+[09:00:50] [172.19.0.5][f8e450b9][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:00:51] [172.19.0.5][9366533f][ManagementConnection] New connection established.
+[09:00:53] [172.19.0.5][2e9a25da][ExtensionHostConnection] New connection established.
+[09:00:53] [172.19.0.5][2e9a25da][ExtensionHostConnection] <118380> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 811 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 5348 chars and 1 size events
+[09:03:08] Getting Manifest... ms-python.python
+[09:03:10] Installing extension: ms-python.python
+[09:03:11] Extension signature verification is not done: ms-python.python
+[09:03:15] Extracted extension to /config/extensions/.387b9ffe-e2a7-4647-aa13-3cf4e68e273d: ms-python.python
+[09:03:15] Renamed to /config/extensions/ms-python.python-2023.8.0-universal
+[09:03:15] Extracting extension completed. ms-python.python
+[09:03:15] Extension installed successfully: ms-python.python
+[09:03:23] Getting Manifest... matangover.mypy
+[09:03:24] Installing extension: matangover.mypy
+[09:03:26] Extension signature verification is not done: matangover.mypy
+[09:03:27] Extracted extension to /config/extensions/.397efed3-4478-4160-9508-4bd49a35cf20: matangover.mypy
+[09:03:27] Renamed to /config/extensions/matangover.mypy-0.2.0-universal
+[09:03:27] Extracting extension completed. matangover.mypy
+[09:03:27] Extension installed successfully: matangover.mypy
+[09:03:28] Uninstalling extension from the profile: matangover.mypy@0.2.0 file:///config/data/User/profiles/-64fda02e/extensions.json
+[09:03:28] Marked extension as uninstalled matangover.mypy-0.2.0-universal
+[09:03:29] Successfully uninstalled extension from the profile matangover.mypy@0.2.0 file:///config/data/User/profiles/-64fda02e/extensions.json
+[09:04:28] Getting Manifest... laurenttreguier.vscode-simple-icons
+[09:04:29] Installing extension: laurenttreguier.vscode-simple-icons
+[09:04:31] Extension signature verification is not done: laurenttreguier.vscode-simple-icons
+[09:04:32] Extracted extension to /config/extensions/.1eb813cc-67ac-4698-ad4b-4d2948a151b5: laurenttreguier.vscode-simple-icons
+[09:04:32] Renamed to /config/extensions/laurenttreguier.vscode-simple-icons-1.16.0-universal
+[09:04:32] Extracting extension completed. laurenttreguier.vscode-simple-icons
+[09:04:32] Extension installed successfully: laurenttreguier.vscode-simple-icons
+[09:05:04] [172.19.0.5][9366533f][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:05:05] [172.19.0.5][b209a073][ManagementConnection] New connection established.
+[09:05:06] [172.19.0.5][6d4108d6][ExtensionHostConnection] New connection established.
+[09:05:06] [172.19.0.5][6d4108d6][ExtensionHostConnection] <119487> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1559 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 4966 chars and 1 size events
+[09:05:12] [172.19.0.5][b209a073][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:05:13] [172.19.0.5][6d4108d6][ExtensionHostConnection] <119487> Extension Host Process exited with code: 0, signal: null.
+[09:05:15] [172.19.0.5][1dae0633][ManagementConnection] New connection established.
+[09:05:17] [172.19.0.5][2fd11763][ExtensionHostConnection] New connection established.
+[09:05:17] [172.19.0.5][2fd11763][ExtensionHostConnection] <119857> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1559 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 4966 chars and 1 size events
+[09:05:27] [172.19.0.5][1dae0633][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:05:28] [172.19.0.5][82bde538][ManagementConnection] New connection established.
+[09:05:30] [172.19.0.5][ef647710][ExtensionHostConnection] New connection established.
+[09:05:30] [172.19.0.5][ef647710][ExtensionHostConnection] <120218> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1559 chars and 1 size events
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 4966 chars and 1 size events
+[09:05:42] [172.19.0.5][82bde538][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:05:44] [172.19.0.5][d14f10cb][ManagementConnection] New connection established.
+[09:05:46] [172.19.0.5][e069375d][ExtensionHostConnection] New connection established.
+[09:05:46] [172.19.0.5][e069375d][ExtensionHostConnection] <120542> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1559 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 4966 chars and 1 size events
+[09:05:57] [172.19.0.5][d14f10cb][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+[09:05:57] [172.19.0.5][e069375d][ExtensionHostConnection] <120542> Extension Host Process exited with code: 0, signal: null.
+[09:10:05] [172.19.0.5][623cbaef][ExtensionHostConnection] <118016> Extension Host Process exited with code: 0, signal: null.
+[09:10:29] [172.19.0.5][2e9a25da][ExtensionHostConnection] <118380> Extension Host Process exited with code: 0, signal: null.
+[12:05:57] [172.19.0.5][2fd11763][ExtensionHostConnection] <119857> Extension Host Process exited with code: 0, signal: null.
+[12:06:08] [172.19.0.5][ef647710][ExtensionHostConnection] <120218> Extension Host Process exited with code: 0, signal: null.
+[06:55:00] [172.19.0.5][e89540f4][ManagementConnection] New connection established.
+[06:55:04] [172.19.0.5][657da48e][ExtensionHostConnection] New connection established.
+[06:55:04] [172.19.0.5][657da48e][ExtensionHostConnection] <121854> Launched Extension Host Process.
+[IPC Library: Pty Host]  WARN Persistent process "6": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "6"
+[IPC Library: Pty Host]  WARN Persistent process "7": Process had no disconnect runners but was an orphan
+[IPC Library: Pty Host]  INFO Persistent process reconnection "7"
+[IPC Library: Pty Host]  INFO Persistent process "6": Replaying 4966 chars and 1 size events
+[IPC Library: Pty Host]  INFO Persistent process "7": Replaying 1559 chars and 1 size events
+[06:58:16] [172.19.0.5][604499ac][ManagementConnection] New connection established.
+[06:58:19] [172.19.0.5][604499ac][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.

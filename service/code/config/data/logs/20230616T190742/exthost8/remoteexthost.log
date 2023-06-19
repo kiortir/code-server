@@ -1,0 +1,17 @@
+2023-06-17 07:59:54.136 [info] Extension host with pid 62628 started
+2023-06-17 07:59:54.192 [info] Lock '/config/data/User/workspaceStorage/-32b35f77/vscode.lock': Lock acquired.
+2023-06-17 07:59:54.305 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-06-17 07:59:54.369 [info] ExtensionService#_doActivateExtension ms-python.python, startup: true, activationEvent: 'workspaceContains:pyproject.toml'
+2023-06-17 07:59:55.732 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-06-17 07:59:55.733 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-06-17 07:59:56.264 [info] Eager extensions activated
+2023-06-17 07:59:56.264 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-06-17 07:59:56.265 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-06-17 08:00:00.076 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-06-17 08:00:54.108 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-06-17 08:03:31.547 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-17 08:03:31.550 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-06-17 08:05:14.867 [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-06-17 08:06:01.921 [info] Extension host terminating: received terminate message from renderer
+2023-06-17 08:06:01.926 [info] Lock '/config/data/User/workspaceStorage/-32b35f77/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-06-17 08:06:02.271 [info] Extension host with pid 62628 exiting with code 0

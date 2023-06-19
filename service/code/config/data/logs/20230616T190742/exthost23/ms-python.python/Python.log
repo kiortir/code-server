@@ -1,0 +1,47 @@
+2023-06-19 06:55:15.269 [info] Experiment 'pythonPromptNewFormatterExt' is active
+2023-06-19 06:55:15.269 [info] Experiment 'pythonPromptNewToolsExt' is active
+2023-06-19 06:55:15.269 [info] Test server listening.
+2023-06-19 06:55:15.269 [info] > conda info --json
+2023-06-19 06:55:15.269 [info] > poetry env list --full-path
+2023-06-19 06:55:15.269 [info] cwd: .
+2023-06-19 06:55:15.271 [error] [Error: Command failed: poetry env list --full-path
+/bin/sh: 1: poetry: not found
+
+	at ChildProcess.exithandler (node:child_process:402:12)
+	at ChildProcess.emit (node:events:513:28)
+	at maybeClose (node:internal/child_process:1100:16)
+	at Socket.<anonymous> (node:internal/child_process:458:11)
+	at Socket.emit (node:events:513:28)
+	at Pipe.<anonymous> (node:net:301:12)] {
+  code: 127,
+  killed: false,
+  signal: null,
+  cmd: 'poetry env list --full-path'
+}
+2023-06-19 06:55:15.271 [info] Found: /bin/python --> /usr/bin/python3.11
+2023-06-19 06:55:15.271 [info] Found: /bin/python3 --> /usr/bin/python3.11
+2023-06-19 06:55:15.271 [info] Found: /bin/python3.10 --> /bin/python3.10
+2023-06-19 06:55:15.271 [info] Found: /bin/python3.11 --> /bin/python3.11
+2023-06-19 06:55:15.271 [info] > ./.venv/bin/python -I ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-06-19 06:55:15.271 [info] Found: /usr/bin/python --> /usr/bin/python3.11
+2023-06-19 06:55:15.271 [info] Found: /usr/bin/python3 --> /usr/bin/python3.11
+2023-06-19 06:55:15.271 [info] Found: /usr/bin/python3.10 --> /usr/bin/python3.10
+2023-06-19 06:55:15.271 [info] Found: /usr/bin/python3.11 --> /usr/bin/python3.11
+2023-06-19 06:55:15.271 [info] > /bin/python -I ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-06-19 06:55:15.271 [info] > /bin/python3.10 -I ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-06-19 06:55:15.271 [info] > /bin/python3.11 -I ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-06-19 06:55:15.271 [info] > /usr/bin/python3.10 -I ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/get_output_via_markers.py ~/extensions/ms-python.python-2023.8.0-universal/pythonFiles/interpreterInfo.py
+2023-06-19 06:55:15.305 [info] Python interpreter path: ./.venv/bin/python
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-06-19 06:55:15.819 [warning] Retry failed, storage update failed for key PYTHON_WORKSPACE_STORAGE_KEYS
+2023-06-19 06:55:16.029 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:16.030 [warning] Retry failed, storage update failed for key PYTHON_GLOBAL_STORAGE_KEYS
+2023-06-19 06:55:16.034 [info] Send text to terminal: source /config/workspace/test/.venv/bin/activate
+2023-06-19 06:55:16.034 [info] Send text to terminal: source /config/workspace/test/.venv/bin/activate
+2023-06-19 06:55:18.982 [info] Starting Jedi language server for test.
